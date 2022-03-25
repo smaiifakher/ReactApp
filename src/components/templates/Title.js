@@ -3,11 +3,9 @@ import PropTypes from 'prop-types';
 import Typography from '@material-ui/core/Typography';
 
 export default function Title(props) {
-  return (
-    <Typography component="h6" variant="h6" color="primary">
-      {props.children}
-    </Typography>
-  );
+  return (<Typography component="h6" variant="h6" color="primary">
+    {props.children}
+  </Typography>);
 }
 
 Title.propTypes = {

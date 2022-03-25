@@ -13,8 +13,6 @@ You can also find an example of an overridden element bellow. Overriding the ren
  */
 const GetCountriesColumns = (totalCount) => [
   {title: "Id", field: "id",hidden:true},
-
   {title: "Name", field: "name"},
-
 ]
 export default GetCountriesColumns;

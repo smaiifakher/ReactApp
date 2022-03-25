@@ -13,7 +13,6 @@ You can also find an example of an overridden element bellow. Overriding the ren
  */
 const GetM_Option_ValuesColumns = (totalCount) => [
   {title: "Id", field: "id",hidden:true},
-
   {title: "MOptionId", field: "m_option_id"},
 
 ]

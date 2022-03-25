@@ -13,8 +13,6 @@ You can also find an example of an overridden element bellow. Overriding the ren
  */
 const GetOption_ValuesColumns = (totalCount) => [
   {title: "Id", field: "id",hidden:true},
-
   {title: "OptionId", field: "option_id"},
-
 ]
 export default GetOption_ValuesColumns;

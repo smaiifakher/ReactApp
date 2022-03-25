@@ -1,4 +1,4 @@
-import { Switch } from '@material-ui/core';
+import {Switch} from '@material-ui/core';
 import React from 'react';
 import Avatar from 'react-avatar';
 import Input from "@material-ui/core/Input";
@@ -12,14 +12,13 @@ Information on material-table Props https://material-table.com/#/docs/all-props
 You can also find an example of an overridden element bellow. Overriding the render method is not a must.
  */
 const GetCategoriesColumns = (totalCount) => [
-  {title: "Id", field: "id",hidden:true},
-
+  {title: "Id", field: "id", hidden: true},
   {title: "Lft", field: "_lft"},
-{title: "Rgt", field: "_rgt"},
-{title: "ParentId", field: "parent_id"},
-{title: "Top", field: "top"},
-{title: "SortOrder", field: "sort_order"},
-{title: "Status", field: "status"},
+  {title: "Rgt", field: "_rgt"},
+  {title: "ParentId", field: "parent_id"},
+  {title: "Top", field: "top"},
+  {title: "SortOrder", field: "sort_order"},
+  {title: "Status", field: "status"},
 
 ]
 export default GetCategoriesColumns;

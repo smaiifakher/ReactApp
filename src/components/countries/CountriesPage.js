@@ -3,9 +3,8 @@ import CountriesTable from "./CountriesTable";
 import React from "react";
 
 const CountriesPage = (props) => {
-    return(
-    <PageTemplate title="Countries List">
-        <CountriesTable/>
-    </PageTemplate>)
+  return (<PageTemplate title="Countries List">
+    <CountriesTable/>
+  </PageTemplate>)
 }
 export default CountriesPage;

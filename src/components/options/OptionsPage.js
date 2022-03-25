@@ -3,9 +3,9 @@ import OptionsTable from "./OptionsTable";
 import React from "react";
 
 const OptionsPage = (props) => {
-    return(
+  return (
     <PageTemplate title="Options List">
-        <OptionsTable/>
+      <OptionsTable/>
     </PageTemplate>)
 }
 export default OptionsPage;
